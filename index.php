@@ -33,6 +33,14 @@
             <main>
                 <h1>{{message}}</h1>
 
+                <ul>
+                    <li v-for="(album, index) in data">
+
+                        {{ album.title }}
+
+                    </li>
+                </ul>
+
 
             </main>
 

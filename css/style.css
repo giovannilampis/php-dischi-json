@@ -28,4 +28,5 @@ header {
 main {
     height: calc(100vh -8rem);
     background-color: var(--main_bg);
+    color: whitesmoke;
 }
