@@ -15,4 +15,7 @@ createApp({
         } )
       }
     },
+    created() {
+      this.callApi();
+    },
   }).mount('#app')
