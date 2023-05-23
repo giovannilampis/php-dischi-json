@@ -36,6 +36,13 @@
 
                     <div v-for="(album, index) in data" :key="index" class="my_card mx-3 col-12 col-md-4 col-lg-2">
 
+                        <img class="mb-2" :src="album.poster" :alt="album.title">
+
+                        <p class="fs-5">{{ album.title }}</p>
+
+                        <p class="fs-6">{{ album.author }}</p>
+
+                        <p class="fs-5">{{ album.year }}</p>
 
                     </div>
 
