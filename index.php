@@ -19,7 +19,24 @@
 
     <div id="app">
 
-        {{message}}
+        <section class="vh-100">
+
+            <header>
+
+                <div id="logo_container">
+                    <img src="./images/logo.svg" alt="logo">
+                </div>
+
+
+            </header>
+
+            <main>
+                <h1>{{message}}</h1>
+
+
+            </main>
+
+        </section>
 
     </div>
 

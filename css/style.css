@@ -3,3 +3,29 @@
     --main_bg: rgba(29, 45, 60, 1);
     --card_bg: rgba(17, 32, 48, 1);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+header {
+    background-color: var(--header_bg);
+    height: 8rem;
+}
+
+#logo_container {
+    height: 4rem;
+    aspect-ratio: 1 / 1;
+}
+
+main {
+    height: calc(100vh -8rem);
+    background-color: var(--main_bg);
+}
