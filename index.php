@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- my css style sheet link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>php-dischi-json</title>
 </head>
 
@@ -19,6 +19,7 @@
 
     <div id="app">
 
+        {{message}}
 
     </div>
 
@@ -29,7 +30,7 @@
     <!-- VUE JS 3 - CDN -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- my javascript sheet link -->
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
