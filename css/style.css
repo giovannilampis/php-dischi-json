@@ -22,11 +22,21 @@ header {
 
 #logo_container {
     height: 4rem;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 2 / 1;
 }
 
 main {
     height: calc(100vh -8rem);
     background-color: var(--main_bg);
     color: whitesmoke;
+}
+
+.my_card {
+    background-color: var(--card_bg);
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
 }

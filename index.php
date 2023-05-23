@@ -31,16 +31,15 @@
             </header>
 
             <main>
-                <h1>{{message}}</h1>
 
-                <ul>
-                    <li v-for="(album, index) in data">
+                <div class="row">
 
-                        {{ album.title }}
+                    <div v-for="(album, index) in data" :key="index" class="my_card mx-3 col-12 col-md-4 col-lg-2">
 
-                    </li>
-                </ul>
 
+                    </div>
+
+                </div>
 
             </main>
 
