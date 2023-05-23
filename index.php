@@ -23,9 +23,12 @@
 
             <header>
 
-                <div id="logo_container">
-                    <img src="./images/logo.svg" alt="logo">
+                <div class="container d-flex justify-content-start align-items-center">
+                    <div id="logo_container">
+                        <img src="./images/logo.svg" alt="logo">
+                    </div>
                 </div>
+
 
 
             </header>
@@ -34,9 +37,13 @@
 
                 <div class="row">
 
-                    <div v-for="(album, index) in data" :key="index" class="my_card mx-3 col-12 col-md-4 col-lg-2">
+                    <div v-for="(album, index) in data" :key="index"
+                        class="my_card mx-3 col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
 
-                        <img class="mb-2" :src="album.poster" :alt="album.title">
+                        <div class="poster_container">
+                            <img class="mb-2" :src="album.poster" :alt="album.title">
+                        </div>
+
 
                         <p class="fs-5">{{ album.title }}</p>
 

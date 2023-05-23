@@ -22,7 +22,7 @@ header {
 
 #logo_container {
     height: 4rem;
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 3 / 1;
 }
 
 main {
@@ -34,9 +34,14 @@ main {
 .my_card {
     background-color: var(--card_bg);
     margin-bottom: 1rem;
-    text-align: center;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+}
+
+.poster_container {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    margin-top: 1rem;
 }
