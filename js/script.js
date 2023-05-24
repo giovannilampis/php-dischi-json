@@ -3,9 +3,9 @@ const { createApp } = Vue
 createApp({
     data() {
       return {
-        message: 'Ciaoooooo!',
         apiUrl: 'server.php',
         data: '',
+        diskDetails: ''
       }
     },
     methods: {
@@ -13,7 +13,16 @@ createApp({
         axios.get( this.apiUrl ).then( (res) => {
           this.data = res.data;
         } )
-      }
+      },
+      // showSingleCard(i) {
+      //   const datoIndice = {
+      //     diskIndex: i
+      //   }
+      //   axios.get( this.apiUrl, { datoIndice } )
+      //     .then( (res)=> {
+      //       this.diskDetails = res.data;
+      //     } )
+      // }
     },
     created() {
       this.callApi();

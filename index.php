@@ -23,27 +23,24 @@
 
             <header>
 
-                <div class="container d-flex justify-content-start align-items-center">
+                <div class="container">
                     <div id="logo_container">
                         <img src="./images/logo.svg" alt="logo">
                     </div>
                 </div>
 
-
-
             </header>
 
             <main>
 
-                <div class="row">
+                <div class="row row-gap-3">
 
                     <div v-for="(album, index) in data" :key="index"
-                        class="my_card mx-3 col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
+                        class="my_card  col-4 d-flex flex-column align-items-center">
 
                         <div class="poster_container">
                             <img class="mb-2" :src="album.poster" :alt="album.title">
                         </div>
-
 
                         <p class="fs-5">{{ album.title }}</p>
 
