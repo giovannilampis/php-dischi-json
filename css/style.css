@@ -18,6 +18,8 @@ img {
 header {
     background-color: var(--header_bg);
     height: 8rem;
+    display: flex;
+    align-items: center;
 }
 
 #logo_container {
@@ -26,14 +28,13 @@ header {
 }
 
 main {
-    height: calc(100vh -8rem);
+    height: calc(100vh - 8rem);
     background-color: var(--main_bg);
     color: whitesmoke;
 }
 
 .my_card {
     background-color: var(--card_bg);
-    margin-bottom: 1rem;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
